@@ -1,1 +1,2 @@
-# vectron_vga_plus
+# Vectron VGA Plus
+
