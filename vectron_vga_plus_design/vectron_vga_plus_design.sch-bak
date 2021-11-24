@@ -3093,9 +3093,4 @@ Wire Wire Line
 Connection ~ 10050 15300
 Wire Wire Line
 	10050 15300 10050 15350
-Wire Wire Line
-	9600 4300 9400 4300
-Connection ~ 9400 6750
-Wire Wire Line
-	9400 4300 9400 6750
 $EndSCHEMATC
