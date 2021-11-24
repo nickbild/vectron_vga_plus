@@ -1212,16 +1212,11 @@ Wire Wire Line
 	9300 7650 9450 7650
 Connection ~ 11300 4200
 Wire Wire Line
-	9600 4300 9400 4300
-Wire Wire Line
-	9400 4300 9400 6750
-Wire Wire Line
 	9400 7550 9450 7550
 Wire Wire Line
 	9400 6750 17950 6750
 Wire Wire Line
 	17950 6750 17950 7700
-Connection ~ 9400 6750
 Wire Wire Line
 	9400 6750 9400 7550
 Text Label 17850 7800 0    50   ~ 0
@@ -3098,4 +3093,9 @@ Wire Wire Line
 Connection ~ 10050 15300
 Wire Wire Line
 	10050 15300 10050 15350
+Wire Wire Line
+	9600 4300 9400 4300
+Connection ~ 9400 6750
+Wire Wire Line
+	9400 4300 9400 6750
 $EndSCHEMATC
