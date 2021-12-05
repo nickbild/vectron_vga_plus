@@ -13,7 +13,7 @@ I previously built a massive 7400-logic based VGA generator called [Vectron VGA]
 
 The key change that simplified the design was to use more RAM and less logic.  So, for example, instead of having counters and flip flops, etc. to time each horizontal sync, that logic is embedded in the data in memory.  This new design was also used to create a PCB, and the KiCad files are [here](https://github.com/nickbild/vectron_vga_plus/tree/main/vectron_vga_plus_design).
 
-The general overview of the design goes like this: a 25.175 MHz pixel clock (divided in half by a flip flop) is used to trigger a chain of 4 bit counter chips.  These counters form an address in memory, and bits from the data stored at that location represent red, green, blue, horizontal sync, and vertical sync.  When the end of a frame is reached, magnitude comparators reset the counters, and it all starts over for the next frame.
+The general overview of the design goes like this: a 25.175 MHz pixel clock (divided in half by a flip flop) is used to trigger a chain of 4 bit counter chips.  These counters form an address in memory, and bits from the data stored at that memory location represent red, green, blue, horizontal sync, and vertical sync.  When the end of a frame is reached, magnitude comparators reset the counters, and it all starts over for the next frame.
 
 Of course you also need to get data *in* to the RAM, so there are some buffer chips and mode selection signals to allow an external device (e.g. retro computer or microcontroller) to take over bus control and write RAM as needed.
 
