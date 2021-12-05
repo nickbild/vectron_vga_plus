@@ -45,6 +45,22 @@ Breadboard prototype of circuit:
 
 ## Bill of Materials
 
+- 1 x 25.175 MHz oscillator
+- 1 x 74LS74AN
+- 5 x 74LS161
+- 2 x SN74LS682N
+- 1 x SN74HC32N
+- 1 x 74LS04N
+- 2 x SN74LS245N
+- 4 x SN74LS244N
+- 1 x AS6C4008-55PCN
+- 1 x 74LS273
+- 3 x 200 ohm resistors
+- 3 x 100 ohm resistors
+- 2 x 200 uF electrolytic capacitors
+- 1 x VGA connector
+- 36 x female header pins
+
 ## About the Author
 
 [Nick A. Bild, MS](https://nickbild79.firebaseapp.com/#!/)
