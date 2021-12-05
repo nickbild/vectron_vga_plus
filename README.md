@@ -9,7 +9,7 @@ Vectron VGA Plus generates a 640x480@60Hz VGA signal and has an interface that w
 
 I had previously built a massive 7400-logic based VGA generator called [Vectron VGA](https://github.com/nickbild/vectron_vga).  While it was a nice project to build, it is huge, and not very practical to keep around for use in lots of other projects.  I built Vectron VGA Plus as a much smaller, simpler alternative.
 
-The key change that simplified the design was to use more RAM and less logic.  So, for example, instead of having counters and flip flops, etc. to time each horizontal sync, that logic is embedded in the data in memory.
+The key change that simplified the design was to use more RAM and less logic.  So, for example, instead of having counters and flip flops, etc. to time each horizontal sync, that logic is embedded in the data in memory.  This new design was also used to create a PCB, and the KiCad files are [here](https://github.com/nickbild/vectron_vga_plus/tree/main/vectron_vga_plus_design).
 
 The general overview of the design goes like this: a 25.175 MHz pixel clock (divided in half by a flip flop) is used to trigger a chain of 4 bit counter chips.  These counters form an address in memory, and bits from the data stored at that location represent red, green, blue, horizontal sync, and vertical sync.  When the end of a frame is reached, magnitude comparators reset the counters, and it all starts over for the next frame.
 
