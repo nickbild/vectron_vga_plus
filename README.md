@@ -9,7 +9,7 @@ Screenshot of Vectron VGA Plus running a demo:
 
 ## How It Works
 
-I had previously built a massive 7400-logic based VGA generator called [Vectron VGA](https://github.com/nickbild/vectron_vga).  While it was a nice project to build, it is huge, and not very practical to keep around for use in lots of other projects.  I built Vectron VGA Plus as a much smaller, simpler alternative.
+I previously built a massive 7400-logic based VGA generator called [Vectron VGA](https://github.com/nickbild/vectron_vga).  While it was a nice project to build, it is huge, and not very practical to keep around for use in lots of other projects.  I built Vectron VGA Plus as a much smaller, simpler alternative.
 
 The key change that simplified the design was to use more RAM and less logic.  So, for example, instead of having counters and flip flops, etc. to time each horizontal sync, that logic is embedded in the data in memory.  This new design was also used to create a PCB, and the KiCad files are [here](https://github.com/nickbild/vectron_vga_plus/tree/main/vectron_vga_plus_design).
 
