@@ -19,7 +19,7 @@ Of course you also need to get data *in* to the RAM, so there are some buffer ch
 
 As I mentioned, the 25.175 MHz clock has been divided by 2, which yields a viewable resolution of 320 horizontal pixels.  To keep logic simple, the vertical resolution is kept at 480 lines, technically giving an odd resolution of 320x480, but it is expected that in actual use, the external device is going to double up horizontal lines, giving a standard resolution of 320x240.  3-bit color was implemented, yielding a palette of 8 colors.
 
-Since even non-visible screen regions need to be represented in the RAM (for blanking periods and V-sync/H-sync timings), RAM usage is higher -- 320x480 requires 210KB of video RAM (I used a 512KB chip that I had on hand, but a 256KB would be sufficient).  That's a bit extravagant for the 80s-esque 6502-based retro computers that I build, but it's also, I think, within bounds for a pure retro device (as opposed to using a microcontroller or FPGA).
+Since even non-visible screen regions need to be represented in the RAM (for blanking periods and V-sync/H-sync timings), RAM usage is higher -- 320x480 requires 210KB of video RAM (I used a 512KB chip that I had on hand, but a 256KB would be sufficient).  That's a bit extravagant for the 80s-esque 6502-based retro computers that I build, but it's also, I think, within bounds for a pure retro device (as opposed to using a microcontroller or FPGA).  In addition to the reduction in chip count, this design also pays off in flexibility; timings can be tweaked by adjusting the contents of memory, even after the PCB has been finalized.
 
 ## Media
 
@@ -32,6 +32,8 @@ Since even non-visible screen regions need to be represented in the RAM (for bla
 Oops!  I picked the wrong footprint for my oscillator!  Fortunately, I could still solder the pins to the pads.  I have since fixed the design files.
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/oscillator_sm.jpg)
+
+![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/vectron_vga_plus_design.svg)
 
 ## Bill of Materials
 
