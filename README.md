@@ -37,6 +37,10 @@ Schematic:
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/vectron_vga_plus_design_2.svg)
 
+Breadboard prototype of circuit:
+
+![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/breadboard_prototype.jpg)
+
 ## Bill of Materials
 
 ## About the Author
