@@ -15,6 +15,8 @@ Vectron VGA Plus generates a 640x480@60Hz VGA signal and has an interface that w
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/unpopulated_pcb_sm.jpg)
 
+Oops!  I picked the wrong footprint for my oscillator!  Fortunately, I could still solder the pins to the pads.  I have since fixed the design files.
+
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/oscillator_sm.jpg)
 
 ## Bill of Materials
