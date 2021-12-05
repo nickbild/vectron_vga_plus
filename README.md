@@ -29,7 +29,7 @@ Since even non-visible screen regions need to be represented in the RAM (for bla
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/unpopulated_pcb_sm.jpg)
 
-Oops!  I picked the wrong footprint for my oscillator!  Fortunately, I could still solder the pins to the pads.  I have since fixed the design files.
+Oops!  I picked the wrong footprint for my oscillator!  Fortunately, I could still solder the pins to the pads.
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/oscillator_sm.jpg)
 
