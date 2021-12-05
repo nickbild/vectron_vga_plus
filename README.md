@@ -15,7 +15,7 @@ The general overview of the design goes like this: a 25.175 MHz pixel clock (div
 
 Of course you also need to get data *in* to the RAM, so there are some buffer chips and mode selection signals to allow an external device (e.g. retro computer or microcontroller) to take over bus control and write RAM as needed.
 
-As I mentioned, the 25.175 MHz clock has been divided by 2, which yields a viewable resolution of 320 horizontal pixels.  To keep logic simple, the vertical resolution is kept at 480 lines, technically giving an odd resolution of 320x480, but it is expected that in actual use, the external device is going to double up horizontal lines, giving a standard resolution of 320x240.
+As I mentioned, the 25.175 MHz clock has been divided by 2, which yields a viewable resolution of 320 horizontal pixels.  To keep logic simple, the vertical resolution is kept at 480 lines, technically giving an odd resolution of 320x480, but it is expected that in actual use, the external device is going to double up horizontal lines, giving a standard resolution of 320x240.  3-bit color was implemented, yielding a pallette of 8 colors.
 
 Since even non-visible screen regions need to be represented in the RAM (for blanking periods and V-sync/H-sync timings), RAM usage is higher -- 320x480 requires 210KB of video RAM (I used a 512KB chip that I had on hand, but a 256KB would be sufficient).  That's a bit extravagant for the 80s-esque 6502-based retro computers that I build, but it's also, I think, within bounds for a pure retro device (as opposed to using a microcontroller or FPGA).
 
