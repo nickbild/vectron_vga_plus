@@ -25,6 +25,8 @@ Since even non-visible screen regions need to be represented in the RAM (for bla
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/populated_pcb_angle_sm.jpg)
 
+An Arduino Mega 2560 sending images to Vectron VGA Plus:
+
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/pcb_w_arduino_top_sm.jpg)
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/unpopulated_pcb_sm.jpg)
