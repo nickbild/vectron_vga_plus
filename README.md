@@ -33,7 +33,7 @@ Oops!  I picked the wrong footprint for my oscillator!  Fortunately, I could sti
 
 ![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/oscillator_sm.jpg)
 
-![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/vectron_vga_plus_design.svg)
+![](https://raw.githubusercontent.com/nickbild/vectron_vga_plus/main/media/vectron_vga_plus_design_2.svg)
 
 ## Bill of Materials
 
