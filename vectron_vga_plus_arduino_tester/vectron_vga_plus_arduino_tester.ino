@@ -120,9 +120,13 @@ void loop() {
     plotPixel(315, 100, 28);
     plotPixel(317, 100, 28);
     plotPixel(319, 100, 28);
+
+
+    plotPixel(315, 148, 28);
+    plotPixel(316, 150, 28);
     
     plotPixel(310, 476, 28);
-    plotPixel(319, 478, 28);
+    plotPixel(316, 478, 28);
     
   
   
